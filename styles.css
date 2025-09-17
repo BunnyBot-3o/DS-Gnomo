@@ -1,0 +1,32 @@
+@charset "URF-8";
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+/*
+ definição de variáveis
+*/
+
+:root {
+    --cor-principal: #a3a904;
+
+}
+
+/*
+ * significa todos os elementos
+*/
+
+* {
+    font-family: "Dancing Script", Helvetica, sans-serif;
+    color: var(--cor-principal);
+}
+
+ul>li:nth-child(even) {
+background-color: #01ece8;
+}
+
+
+.caixa-formatada {
+    background-color: var(--cor-principal);
+    color: #f6f600;
+    border-radius: 20px;
+    padding: 10px;
+}
